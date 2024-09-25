@@ -1,0 +1,125 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 1300px;
+    height:1400px;
+    margin: 45px auto;
+    background: #eeeeee;
+    padding: 20px;
+  }
+
+  .profile-image {
+    display: flex;
+    align-items:center; 
+    gap: 0px;
+    margin-top: 0px;
+  }
+  
+  .profile-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: -20px;
+    margin-top: 5px;
+    align-items: center;
+  }
+
+  .edit-btn{
+    color: gray;
+    border-color: #dddddd;
+    background-color: #fff;
+    border-radius: 5px;
+    border-width: thin;
+    width:55px;
+    height: 30px;
+    margin-left: 65px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-color: lightgray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-family: Inter, sans-serif;
+    
+  
+  }
+  
+  .form-fields {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 45px;
+    margin-top: 35px;
+    height: 30px;
+    margin-left: 2px;
+    border-color: lightgray;
+
+
+  }
+  
+  label {
+    width: 0px;
+    height: -10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 1px;
+    margin-bottom: 40px;
+    margin-right: -20px;
+    /* margin-right: 4px; */
+    color:gray;
+    font-family: Inter, sans-serif;
+
+
+    
+  }
+  
+  input,
+  select,
+  textarea {
+    flex: 1;
+    min-height: 50px;
+    border-color: lightgray;
+    border-radius: 7px;
+    margin-left: -10px;
+    margin-top: 100px;
+    font-family: Inter, sans-serif;
+    color:gray;  
+  }
+  
+  header {
+    background-color: #F5F5F5;
+    color: #2C2D2D;
+    padding: 10px 0;
+    width: 1260px;
+    height: 35px;
+    margin-left: 40px;
+    margin-bottom: -55px;
+    margin-top: 45px;
+    border-radius:5px 5px 0px 0px ;
+    font-family: Inter, sans-serif;
+  
+  }
+  .save-button {
+    align-self: flex-end;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Inter, sans-serif;
+    margin-top:70px ;
+
+  }
+  

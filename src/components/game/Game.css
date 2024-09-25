@@ -1,0 +1,48 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 1px !important;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #999;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .square:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .game-info {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 400px) {
+    .game-board {
+      grid-template-columns: repeat(3, 80px);
+    }
+  
+    .square {
+      width: 80px;
+      height: 80px;
+      font-size: 36px;
+    }
+  }
